@@ -1,0 +1,29 @@
+Te mando las preguntas y por favor retórname el código debajo de cada pregunta. El código debe de funcionar con tan solo copiar.
+
+ 
+
+Si necesitas librerías externas, como JQuery,  usa CDN.
+
+ 
+
+1. Realiza un programa que presente una multiplicación y exponenciación en PHP.
+
+2. Realiza un Formulario con Boostrap que al dar enviar, pinte el resultado en pantalla con formato.
+
+3. Realiza una tabla con PHP que muestre el resultado de un arreglo multinivel.
+
+4. Realiza una gráfica de pastel con alguna librería externa tipo Javascript, que muestre alguno de los resultados de la pregunta anterior.
+
+5. Convierte datos Json en un arreglo multiarray en PHP.
+
+ 
+
+Por favor en cuanto tengas las respuestas mándamelas lo más pronto posible.
+
+ 
+
+Saludos.
+
+
+Hora de inicio: 10:14am
+Hora de termino: 
