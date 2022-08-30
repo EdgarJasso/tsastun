@@ -1,0 +1,206 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Tsatun</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class="bg-secondary">
+
+    <div class="container-fluid">
+        <div class="jumbotron my-5">
+            <h1 class="display-3">Tsastun</h1>
+            <p class="lead">Examen tecnico</p>
+            <hr class="my-2">
+            <p>Desarrollado por: Edgar Jasso</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="https://github.com/EdgarJasso/tsastun" role="button" target="_blank">Codigo github</a>
+            </p>
+            <hr class="my-2">
+            <p>Descripción</p>
+            <p class="lead text-center">
+                <ul>
+                    <li>Realiza un programa que presente una multiplicación y exponenciación en PHP.
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#test_1">
+                            Revisar
+                        </button>
+                    </li>
+                    <li>Realiza un Formulario con Boostrap que al dar enviar, pinte el resultado en pantalla con formato.
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#test_2">
+                            Revisar
+                        </button>
+                    </li>
+                    <li>Realiza una tabla con PHP que muestre el resultado de un arreglo multinivel.
+                        <span> (3, 4, 5 )</span>
+                        <a href="ejercicio_junto.php" class="btn btn-info"> revisar</a>
+                    </li>
+                    <li>Realiza una gráfica de pastel con alguna librería externa tipo Javascript, que muestre alguno de los resultados de la pregunta anterior.
+                        <span> (3, 4, 5 )</span>    
+                        <a href="ejercicio_junto.php" class="btn btn-info"> revisar</a>
+                    </li>
+                    <li>Convierte datos Json en un arreglo multiarray en PHP.
+                        <span> (3, 4, 5 )</span>
+                        <a href="ejercicio_junto.php" class="btn btn-info"> revisar</a>
+                    </li>
+                </ul>
+            </p>
+
+        </div>    
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            
+        });
+    </script>
+
+    
+    
+    <!-- Modal -->
+    <div class="modal fade" id="test_1" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ejercicio 1</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <form class="needs-validation-ejercicio-1" novalidate>
+                        <div class="form-group">
+                            <label for="number_1">Ingrese numero</label>
+                            <input type="number" name="number_1" id="number_1" class="form-control" placeholder="" aria-describedby="helpId" required>
+                            <div class="invalid-feedback">Ingresa numero.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="number_2">Ingrese numero</label>
+                            <input type="number" name="number_2" id="number_2" class="form-control" placeholder="" aria-describedby="helpId" required>
+                            <div class="invalid-feedback">Ingresa numero.</div>
+                        </div>
+                        <div class="btn-group" role="group" aria-label="">
+                            <button type="submit" class="btn btn-primary" id="ejercicio_1">Realizar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="test_2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ejercicio 2</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <form class="needs-validation-ejercicio-2" novalidate>
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input id="nombre" class="form-control" type="text" name="nombre" required>
+                            <div class="invalid-feedback">campo requerido.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="apellidos">Apellidos</label>
+                            <input id="apellidos" class="form-control" type="text" name="apellidos" required>
+                            <div class="invalid-feedback">campo requerido.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo</label>
+                            <input id="correo" class="form-control" type="mail" name="correo" required>
+                            <div class="invalid-feedback">campo requerido.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="edad">Edad</label>
+                            <input id="edad" class="form-control" type="number" name="edad" required>
+                            <div class="invalid-feedback">campo requerido.</div>
+                        </div>
+                        <div class="btn-group text-center" role="group" aria-label="">
+                            <button type="submit" class="btn btn-primary" id="ejercicio_2">Realizar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(function () {
+            'use strict';
+           
+            //validacion modal ejercicio 1
+            const forms_1 = document.querySelectorAll('.needs-validation-ejercicio-1');
+
+            Array.prototype.slice.call(forms_1).forEach((form) => {
+                form.addEventListener('submit', (event) => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        $(form).addClass('is-invalid');
+                    }else{
+                        event.preventDefault();
+                        event.stopPropagation();
+                        send();
+                        $(form).addClass('is-valid');
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+
+            function send(){
+                var n_1 = $("#number_1").val();
+                var n_2 = $("#number_2").val();
+                $(location).attr('href','ejercicio_1.php?n_1='+n_1+'&n_2='+n_2);
+            }
+
+            const forms_2 = document.querySelectorAll('.needs-validation-ejercicio-2');
+            Array.prototype.slice.call(forms_2).forEach((form) => {
+                form.addEventListener('submit', (event) => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        $(form).addClass('is-invalid');
+                    }else{
+                        event.preventDefault();
+                        event.stopPropagation();
+                        formulario();
+                        $(form).addClass('is-valid');
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+
+            function formulario(){
+                var nombre = $("#nombre").val();
+                var apellidos = $("#apellidos").val();
+                var correo = $("#correo").val();
+                var edad = $("#edad").val();
+
+                $(location).attr('href','ejercicio_2.php?nombre='+nombre+'&apellidos='+apellidos+'&correo='+correo+'&edad='+edad);
+            }
+
+        });
+        
+    </script>
+    </body>
+</html>

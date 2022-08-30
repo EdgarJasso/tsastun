@@ -26,4 +26,6 @@ Saludos.
 
 
 Hora de inicio: 10:14am
-Hora de termino: 
+Hora de termino: 12:38pm
+
+anotacion: no termine el punto 4, falto acoplar la informacion utilizada
